@@ -97,7 +97,9 @@ const StockCard = ({
       ) : (
         <ArrowUp className="w-3 h-3 text-destructive-light" />
       )}
-      <span className={`text-xs ${isPositive ? "text-success" : "text-destructive-light"}`}>
+      <span
+        className={`text-xs ${isPositive ? "text-success" : "text-destructive-light"}`}
+      >
         {change}
       </span>
     </div>
